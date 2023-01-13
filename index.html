@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- IMPORTING OTHER FILES -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="main">
+            <h1>TIC TAC TOE</h1>
+
+            <!-- HOW TO PLAY -->
+            <p class="info">
+                Game starts by just Tap on box<br><br>
+                First Player starts as <b id="player1">Player X</b>
+                <br> and <br>
+                Second Player as <b id="player2">Player 0</b>
+            </p>
+
+            <div id="line"></div>
+
+
+            <br><br>
+            <!-- 3X3 GRID -->
+            <input type="text" id="b1" onclick="box1(); game();" readonly>
+            <input type="text" id="b2" onclick="box2(); game();" readonly>
+            <input type="text" id="b3" onclick="box3(); game();" readonly>
+            <br><br>
+
+            <input type="text" id="b4" onclick="box4(); game();" readonly>
+            <input type="text" id="b5" onclick="box5(); game();" readonly>
+            <input type="text" id="b6" onclick="box6(); game();" readonly>
+            <br><br>
+
+            <input type="text" id="b7" onclick="box7(); game();" readonly>
+            <input type="text" id="b8" onclick="box8(); game();" readonly>
+            <input type="text" id="b9" onclick="box9(); game();" readonly>
+
+            <!-- END GRID -->
+            <br><br><br>
+            
+            <!-- RESET -->
+            <button class="reset" onclick="reset()"> RESET </button>
+
+            <br><br>
+            <!-- SHOWS PLAYER TURN -->
+            <p id="print"></p>
+
+        </div>
+    </body>
+
+</html>

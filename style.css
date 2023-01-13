@@ -1,0 +1,95 @@
+/* BASIC STYLING */
+h1 {
+	color: orangered;
+	font-size: 45px;
+}
+
+#player1{
+    color: blue;
+}
+
+#player2{
+    color: orange;
+}
+
+.main {
+	text-align: center;
+}
+
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 17px;
+}
+/* GRID */
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+	width: 80px;
+	height: 52px;
+	margin: auto;
+	border: 1px solid gray;
+	border-radius: 6px;
+	font-size: 30px;
+	text-align: center;
+	}
+
+/* WINNING LINES */
+#winner_vertical{
+    position: absolute;
+    height: 250px;
+    background-color: red;
+    width: 5px;
+}
+
+#winner_horizontal{
+    position: absolute;
+    height: 5px;
+    background-color: red;
+    width: 305px;
+    top: 0;
+    left: 0;
+}
+
+#winner_diagOne{
+    position: absolute;
+    height: 5px;
+    background-color: red;
+    width: 350px;
+    transform: rotate(37deg);
+}
+
+#winner_diagTwo{
+    position: absolute;
+    height: 5px;
+    background-color: red;
+    width: 350px;
+    transform: rotate(-37deg);
+}
+
+/* RESET BUTTON */
+.reset {
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border: 1px solid dodgerblue;
+	margin: auto;
+	border-radius: 4px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: dodgerblue;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/* CURRENT PLAYER */
+#print {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
